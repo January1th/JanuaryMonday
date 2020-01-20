@@ -9,5 +9,5 @@ server:
   #port: ${random.int[1024,9999]}
   connection-timeout: 5000ms
   servlet:
-# 测试   context-path: /goldenhome-bootapi
+#  context-path: /goldenhome-bootapi
     context-path: /gisapi
