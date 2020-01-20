@@ -1,0 +1,13 @@
+# Tomcat
+server:
+  tomcat:
+    uri-encoding: UTF-8
+    max-threads: 1000
+    min-spare-threads: 30
+  port: 9800
+  #配置随机端口(微服务都是使用随机端口，因为服务太多没必要去记)
+  #port: ${random.int[1024,9999]}
+  connection-timeout: 5000ms
+  servlet:
+#    context-path: /goldenhome-bootapi
+    context-path: /gisapi
